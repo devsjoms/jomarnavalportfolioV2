@@ -20,83 +20,98 @@
     <i class="fa fa-bars"><img src="icons/align-justify.svg" alt=""></i>
   </a>
 </div>
-    <section id = "home">
-        <div class="home-page">
-            <h1 class="welcome">WELCOME TO MY PORTFOLIO!</h1>
-
-            <p align = "center">This is my Portfolio Version 2, uisng HTML, CSS and JavaScript</p>
-        </div>
+    <section id="home">
+      <div class="home-page">
+        <h1 class="welcome">WELCOME TO MY PORTFOLIO!</h1>
+        <p>This is my Portfolio Version 2, using HTML, CSS and JavaScript</p>
+      </div>
     </section>
 
+
+    <br><br><br>
     <section id="about">
-
-        <h1>PROFILE</h1>
-        <img class="prof" src="profile/jomar-pfp.jpg" alt="">
-        <h1 class="name">Jomar Naval</h1>
-        <h3>About me</h3>
-
-        <p>I'm Jomar Naval a Second year Bachelor of Science in Information Technology Student at Batangas State University - The National Engineering University - ARASOF Nasugbu Campus. I'm currently learning Python, Java and more soon.</p>
+      <h1>ABOUT ME</h1>
+      <div class="about-container">
+        <img src="profile/jomar-pfp.jpg" alt="Jomar Naval" class="profile-pic">
+      </div>
+      <p class="about-text">
+        Hi! I'm Jomar Naval, an aspiring IT student passionate about coding and design.
+      </p>
     </section>
+
 
     <section id="education">
       
       <h1>EDUCATION</h1>
-      <ul>
-      <li><h2>TUY SENIOR HIGHSCHOOL</h2></li>
-      <li><h3>TVL | Information and Communication Technology</h3></li>
-      <li><h3>2023 - 2024</h3></li>
-      <li><h2>BATANGAS STATE UNIVERSITY - ARASOF</h2></li>
-      <li><h3>Bachelor of Science in Information Technology</h3></li>
-      <li><h3>2024 - Present</h3></li>
-      </ul>
+    <ul class="timeline">
+      <li>
+        <h2>TUY SENIOR HIGHSCHOOL</h2>
+        <h3>TVL | Information and Communication Technology</h3>
+        <h3>2023 - 2024</h3>
+      </li>
+      <li>
+        <h2>BATANGAS STATE UNIVERSITY - ARASOF</h2>
+        <h3>Bachelor of Science in Information Technology</h3>
+        <h3>2024 - Present</h3>
+      </li>
+    </ul>
+
+
     </section>
     <section id="contacts">
         <h1>CONTACTS</h1>
-        <a href="https://github.com/devsjoms">
+        <div class="button-group">
           <div class="button-icon">
-            <div class="icon">
-            <img src="icons/github-mark.png" alt="GitHub Icon">
-            </div>
-          <div class="cube">
-            <span class="side front">Github</span>
-            <span class="side top">Get me here</span>
+            <div class="icon"><img src="icon1.svg" alt="Icon 1"></div>
+            <span>Button 1</span>
           </div>
+          <div class="button-icon">
+            <div class="icon"><img src="icon2.svg" alt="Icon 2"></div>
+            <span>Button 2</span>
           </div>
-          </a>
+          <div class="button-icon">
+            <div class="icon"><img src="icon3.svg" alt="Icon 3"></div>
+            <span>Button 3</span>
+          </div>
+        </div>
 
-          <a href="mailto:jomarnaval023@gmail.com">
-          <div class="button-icon">
-            <div class="icon">
-            <img src="icons/7611770.png" alt="GitHub Icon">
-            </div>
-          <div class="cube">
-            <span class="side front">Google</span>
-            <span class="side top">Suggest improvements</span>
-          </div>
-          </div>
-          </a>
       </section>
 
     <section id="projects">
-        <h1>PROJECTS</h1>
+      <h1>PROJECTS</h1>
 
-        <div class="projects">
-          <div>
-              <img src="" alt="Password Generator">
-          </div>
-          <div>
-              <img src="" alt="GWA CALCULATOR">
-          </div>
-          <div>
-              <img src="" alt="Portfolio V1">
-          </div>
-        </div>
+      <div class="projects">
+    <div class="proj-div">
+
+      <div class="in-proj">
+        <a href="">
+          <img src="profile/jomar-pfp.jpg" alt="Password Generator">
+          <h1>Password Generator</h1>
+        </a>
+      </div>
+
+      <div class="in-proj">
+        <a href="">
+          <img src="profile/jomar-pfp.jpg" alt="GWA CALCULATOR">
+          <h1>GWA CALCULATOR</h1>
+        </a>
+      </div>
+
+      <div class="in-proj">
+        <a href="">
+          <img src="profile/jomar-pfp.jpg" alt="Portfolio V1">
+          <h1>Portfolio V1</h1>
+        </a>
+      </div>
+
+    </div>
+    </div>
+
         
     </section>
 
     <section id="certificates">
         <h1>CERTIFICATES</h1>
-        <div class="cert-frame">
         <div class="certs">
           <a href="https://www.sololearn.com/certificates/CC-S9RTVK8V" target="_blank">
             <img src="Certificates/py.png" alt="Intro to Python" class="certs">
@@ -119,8 +134,7 @@
           <a href="https://freecodecamp.org/certification/jomarnaval/scientific-computing-with-python-v7" target="_blank">
             <img src="Certificates/scientific_computing_FCC.png" alt="Scientific Computing with Python" class="certs">
           </a>
-    </div>
-    </div>
+        </div>
     </section>
 <script src="script.js"></script>
 </body>
