@@ -13,15 +13,15 @@ body {
 }
 .certs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* larger columns on desktop */
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* larger columns on desktop */
   gap: 20px; /* desktop gap */
-  max-width: 900px; /* wider grid for larger screens */
+  max-width: 999px; /* wider grid for larger screens */
   margin: 0 auto;
   justify-items: center;
 }
 
 .certs img {
-  width: 220px; /* larger image for desktop */
+  width: 200px; /* larger image for desktop */
   height: auto;
 }
 
